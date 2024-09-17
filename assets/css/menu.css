@@ -1,0 +1,128 @@
+@font-face {
+  font-family: touches;
+  src: url(../fonts/touches.TTF)
+}
+
+@keyframes anime {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+html {
+  background-color: black;
+}
+
+#GAMETITLE {
+  opacity: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+#SELECT {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  margin-left: 42%;
+  font-family: touches;
+}
+
+#SELECT:hover {
+  background-color: orangered;
+  border-top-color: red;
+  border-bottom-color: yellow;
+  border-right-color: red;
+  border-left-color: yellow;
+  transform: scale(1.1);
+}
+
+#SELECT:active {
+  background-color: orangered;
+  border-top-color: red;
+  border-bottom-color: yellow;
+  border-right-color: red;
+  border-left-color: yellow;
+  transform: scale(1);
+}
+
+footer {
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: touches;
+  text-decoration-color: blue;
+}
+
+.hidden{
+  visibility: hidden;
+  z-index: -1;
+}
+
+.appear{
+  animation: anime 1.5s linear forwards;
+  animation-delay: 1s;
+}
+
+#PLAY{
+  z-index: 1;
+  text-align: center;
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  padding: 100px;
+  width: 400px;
+  font-family: touches;
+  margin-left: -300px;
+  margin-top: -180px;
+}
+
+#PLAY:hover {
+  background-color: orangered;
+  border-top-color: red;
+  border-bottom-color: yellow;
+  border-right-color: red;
+  border-left-color: yellow;
+  transform: scale(1.1);
+}
+
+#PLAY:active {
+  background-color: orangered;
+  border-top-color: red;
+  border-bottom-color: yellow;
+  border-right-color: red;
+  border-left-color: yellow;
+  transform: scale(1);
+}
+
+
+.changebg{
+  background-image: url(../img/background.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 25%;
+}
+
+.bgappear{
+  animation: anime 0.5s linear forwards;
+}
+
+.coin{
+  position: relative;
+  width: 300px;
+  margin-left: 38%;
+}
+
+.copyright{
+  font-size: 30px;
+  margin-top: -12px;
+  font-weight: bolder;
+}

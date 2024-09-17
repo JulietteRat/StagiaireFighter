@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stagiaire fighter selection</title>
+        <link rel="stylesheet" href="./assets/css/selection.css">
+        <link rel="stylesheet" href="./assets/css/modal.css">
+        <script src="./assets/js/modal.js" defer></script>
+        <link rel="icon" href="./assets/img/favicon.ico">
+    </head>
+
+    <body>
+        <main>
+            <section class="Part1">   
+                <div class="PartA">                
+                    <img class="Logo" src="./assets/img/logo/ldnr.jpg" alt="logo Ldnr">
+                    <h1>STAGIAIRE SELECTION</h1>  
+                </div>
+                <div class="PartB"> 
+                        <img class="hidden" src="./assets/img/drapeau/bresil.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/italie.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/laos.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/syrie.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/france.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/royaumeunis.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/ecosse.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/ukraine.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/espagne.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/cameroun.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/maroc.jpeg" alt="bres">
+                        <img class="hidden" src="./assets/img/drapeau/licorne.jpeg" alt="bres">
+                </div>
+            </section>
+            <section class= "Part2">   
+                <div class="TitreSelect"> 
+                    <h2>Choose your Intern</h2>
+                </div>
+                <div class="Select">
+                    <div class="BlocPersoHidden">
+                        <div class="ImgPersoHidden">
+                        </div> 
+                        <div class="titrehidden">
+                        </div>
+                    </div> 
+                    <div class="TabPerso">
+                        <div class="ImgPerso">
+                            <a href="#">
+                                <img src="./assets/img/intern/Amélie.jpeg" alt="Amélie" class="amelie intern" data-num="0">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Anastasia.jpeg" alt="Anastasia" class="intern anastasia" data-num="1">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Caroline.jpeg" alt="Caroline" class="caroline intern" data-num="2">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Elisa.jpeg" alt="Elisa" class="elisa intern" data-num="3">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Federico.jpeg" alt="Federico" class="federico intern" data-num="4">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Guillaume.jpeg" alt="Guillaume" class="guillaume intern" data-num="5">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Igor.jpeg" alt="Igor" class="igor intern" data-num="6">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Joan.jpeg" alt="Joan" class="joan intern" data-num="7">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Jonathan.jpeg" alt="Jonathan" class="jonathan intern" data-num="8">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Juliette.jpeg" alt="Juliette" class="juliette intern" data-num="9">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Kevin.jpeg" alt="Kevin" class="kevin intern" data-num="10">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Klervia.jpeg" alt="Klervia" class="klervia intern" data-num="11">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Licorne.jpeg" alt="Licorne" class="licorne intern" data-num="12">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Mohamad.jpeg" alt="Mohamad" class="mohamad intern" data-num="13">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Ralph.jpeg" alt="Ralph" class="ralph intern" data-num="14">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Thais.jpeg" alt="Thais" class="thais intern" data-num="15">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Valentina.jpeg" alt="Valentina" class="valentina intern" data-num="16">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Wiame.jpeg" alt="Wiame" class="wiame intern" data-num="17">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/intern/Herbert.jpeg" alt="Herbert" class="Herbert intern" data-num="18">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="modal hidden" id="modal">
+            <div class="flex">                
+              <div class="infos">
+                <img src="./assets/img/intern/Amélie.jpeg" alt="" class="imgAvatar">
+                <p class="name"><span></span></p>
+                <p class="lastName"><span></span></p>
+                <p class="country"><span></span></p>
+                <p class="age"><span></span></p>                
+            </div>
+            <div><a href="https://www.linkedin.com/in/am%C3%A9lie-solanas-pruvost-49a589242/" target="_blank" class="linkedin"><img src="./assets/img/logo/linkdin.jpeg" alt="" class="imglkd"></a></div>
+            <div class="divbtn"><button class="btn-close">X</button></div>
+            </div>
+            <div>
+              <h3 class="phAc"><span>"phrase d'accroche"</span></h3>
+                  
+            </div>      
+          </section>
+        <div class="overlay hidden"></div>
+        <footer>
+        </footer>
+        <script src="./assets/js/selection.js"></script>
+    </body>
